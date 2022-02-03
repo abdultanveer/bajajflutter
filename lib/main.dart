@@ -13,6 +13,7 @@ void main() {
             child: Text(
           'hello world',
           style: TextStyle(
+              fontFamily: 'Comforter-Regular',
               fontSize: 20.0,
               fontWeight: FontWeight.bold,
               letterSpacing: 2.0,
