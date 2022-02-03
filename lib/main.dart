@@ -7,10 +7,20 @@ void main() {
         appBar: AppBar(
           title: Text('app bar'),
           centerTitle: true,
+          backgroundColor: Colors.lightGreen,
         ),
-        body: Center(child: Text('hello world')),
+        body: Center(
+            child: Text(
+          'hello world',
+          style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 2.0,
+              color: Colors.grey),
+        )),
         floatingActionButton: FloatingActionButton(
-          onPressed: () {  },
+          backgroundColor: Colors.lightGreen,
+          onPressed: () {},
           child: Text('click'),
         ),
       ),
