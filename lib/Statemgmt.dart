@@ -1,9 +1,9 @@
-import 'package:bajajflutter/widgets/RandomWords.dart';
+import 'package:bajajflutter/widgets/TapboxA.dart';
 import 'package:flutter/material.dart';
-
 
 void main() {
   runApp(const MyApp());
+
 }
 
 class MyApp extends StatelessWidget {
@@ -11,14 +11,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return MaterialApp(
-        title: 'welcome to flutter',
-        home: RandomWords() //random words is a listview
-
+      title: 'state mgmt',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('demo state'),
+        ),
+        body: const Center(child:  TapboxA()),
+      ),
     );
   }
-
-
 }
-
