@@ -1,3 +1,4 @@
+import 'package:bajajflutter/widgets/ParentWidget.dart';
 import 'package:bajajflutter/widgets/TapboxA.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('demo state'),
         ),
-        body: const Center(child:  TapboxA()),
+        body: const Center(child:  ParentWidget()),
       ),
     );
   }
